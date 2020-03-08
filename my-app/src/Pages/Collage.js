@@ -36,12 +36,8 @@ class Collage extends Component {
         super(props)
         this.state = {
             picture: {},
-            // description: '',
             picArray: [{ src: pic1, description: "UnNamed01" }, { src: pic2, description: "UnNamed002" }, { src: pic3, description: "UnNamed003" }, { src: pic4, description: "Color Prism" }, { src: pic5, description: "Silent Torment" }, { src: pic6, description: "UnNamed006", }, { src: pic7, description: "UnNamed007", }, { src: pic8, description: "UnNamed008", }, { src: pic9, description: "UnNamed009", }, { src: pic10, description: "NyKey", }, { src: pic11, description: "UnNamed011" }, { src: pic12, description: "UnNamed012", }, { src: pic13, description: "UnNamed013" }, { src: pic14, description: "UnNamed014", }, { src: pic15, description: "Tree Head", }, { src: pic16, description: "UnNamed016", }, { src: pic17, description: "UnNamed017", }, { src: pic18, description: "UnNamed018", }, { src: frame1, description: "UnNamedF01", }, { src: frame2, description: "UnNamedF02", }, { src: frame3, description: "UnNamedF03", }, { src: frame4, description: "UnNamedF04", }, { src: frame5, description: "UnNamedF05", }, { src: pic19, description: "UnNamed004", }, { src: pic20, description: "UnNamed005", }, { src: pic21, description: "UnNamed010", }, { src: pic22, description: "Singing King", }],
-            // descriptionArray: ["Untitled001", "Untitled002", "Untitled003", "Untitled004"],
-            // picArray: photos,
             isOpen: false,
-            // popupImage: '',
             index: 0
         }
     }
@@ -73,21 +69,6 @@ class Collage extends Component {
             )
         })
 
-        // const images = imageArray.map((image, index) => {
-        //     return (
-
-        //         <Card className="singleImage" key={index}>
-
-        //             <Card.Img variant="top" key={index} src={require(`../assets/images/${image}.jpeg`)} onClick={() => this.handlePopup(image)} />
-        //             <Card.Footer>
-        //                 <small className="text-muted">Last updated 3 mins ago</small>
-        //             </Card.Footer>
-
-        //         </Card>
-
-        //     )
-
-        // })
         return (
             <Container>
                 <h1 style={{ textAlign: "center", fontSize: 50 }}><span style={{ border: "solid black", padding: 5, paddingLeft: 50, paddingRight: 50 }}> Gallery </span></h1>

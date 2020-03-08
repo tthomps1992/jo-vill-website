@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form, Col, Container } from 'react-bootstrap';
+import { Form, Container } from 'react-bootstrap';
 
 export const Contact = () => (
     <Container>
@@ -17,24 +17,7 @@ export const Contact = () => (
                 <p style={{ textAlign: "center", fontSize: 20 }}>Brooklyn, NY United States</p>
 
                 <br></br>
-                {/* <Form.Row style={{ marginLeft: '18%', marginRight: '20%' }}>
-                    <Col>
-                        <Form.Control placeholder="First name" />
-                    </Col>
-                    <Col>
-                        <Form.Control placeholder="Last name" />
-                    </Col>
-                </Form.Row>
-                <br></br>
-                <Form.Group controlId="formGroupEmail" style={{ marginLeft: '18%', marginRight: '20%' }}>
 
-                    <Form.Control type="email" placeholder="Enter email" />
-                </Form.Group>
-
-                <Form.Group controlId="exampleForm.ControlTextarea1" style={{ marginLeft: '18%', marginRight: '20%' }}>
-
-                    <Form.Control as="textarea" rows="3" placeholder="Comment" />
-                </Form.Group> */}
             </Form>
         </div>
     </Container >

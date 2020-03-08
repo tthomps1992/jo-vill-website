@@ -1,5 +1,5 @@
 import React from 'react';
-import { Carousel, Button, Jumbotron, Container } from 'react-bootstrap'
+import { Carousel, Button, Container } from 'react-bootstrap'
 
 export const Home = () => (
     <Container>

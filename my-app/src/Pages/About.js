@@ -1,6 +1,6 @@
 import React from 'react';
-import { Jumbotron, Container, Col, Row, Button, Navbar, Nav, NavDropdown, } from 'react-bootstrap';
-import styled from 'styled-components';
+import { Container, Col, Row } from 'react-bootstrap';
+
 
 export const About = () => (
     <Container>
